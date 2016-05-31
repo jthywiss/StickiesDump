@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E768EF81CFDC6A000606273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E768EF71CFDC6A000606273 /* AppDelegate.m */; };
+		1E768EFB1CFDC6A000606273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E768EFA1CFDC6A000606273 /* main.m */; };
+		1E768EFD1CFDC6A000606273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E768EFC1CFDC6A000606273 /* Assets.xcassets */; };
+		1E768F001CFDC6A000606273 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E768EFE1CFDC6A000606273 /* MainMenu.xib */; };
+		1E768F0D1CFDC6C900606273 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E768F081CFDC6C900606273 /* Document.m */; };
+		1E768F0E1CFDC6C900606273 /* NSAttributedString+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E768F0A1CFDC6C900606273 /* NSAttributedString+FCSAdditions.m */; };
+		1E768F0F1CFDC6C900606273 /* NSColor+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E768F0C1CFDC6C900606273 /* NSColor+FCSAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E768EF31CFDC6A000606273 /* StickiesDump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickiesDump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E768EF61CFDC6A000606273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E768EF71CFDC6A000606273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E768EFA1CFDC6A000606273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E768EFC1CFDC6A000606273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E768EFF1CFDC6A000606273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1E768F011CFDC6A000606273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E768F071CFDC6C900606273 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		1E768F081CFDC6C900606273 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		1E768F091CFDC6C900606273 /* NSAttributedString+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+FCSAdditions.h"; sourceTree = "<group>"; };
+		1E768F0A1CFDC6C900606273 /* NSAttributedString+FCSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+FCSAdditions.m"; sourceTree = "<group>"; };
+		1E768F0B1CFDC6C900606273 /* NSColor+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+FCSAdditions.h"; sourceTree = "<group>"; };
+		1E768F0C1CFDC6C900606273 /* NSColor+FCSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+FCSAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E768EF01CFDC6A000606273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E768EEA1CFDC6A000606273 = {
+			isa = PBXGroup;
+			children = (
+				1E768EF51CFDC6A000606273 /* StickiesDump */,
+				1E768EF41CFDC6A000606273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E768EF41CFDC6A000606273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E768EF31CFDC6A000606273 /* StickiesDump.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E768EF51CFDC6A000606273 /* StickiesDump */ = {
+			isa = PBXGroup;
+			children = (
+				1E768EF61CFDC6A000606273 /* AppDelegate.h */,
+				1E768EF71CFDC6A000606273 /* AppDelegate.m */,
+				1E768EFC1CFDC6A000606273 /* Assets.xcassets */,
+				1E768EFE1CFDC6A000606273 /* MainMenu.xib */,
+				1E768F011CFDC6A000606273 /* Info.plist */,
+				1E768F071CFDC6C900606273 /* Document.h */,
+				1E768F081CFDC6C900606273 /* Document.m */,
+				1E768F091CFDC6C900606273 /* NSAttributedString+FCSAdditions.h */,
+				1E768F0A1CFDC6C900606273 /* NSAttributedString+FCSAdditions.m */,
+				1E768F0B1CFDC6C900606273 /* NSColor+FCSAdditions.h */,
+				1E768F0C1CFDC6C900606273 /* NSColor+FCSAdditions.m */,
+				1E768EF91CFDC6A000606273 /* Supporting Files */,
+			);
+			path = StickiesDump;
+			sourceTree = "<group>";
+		};
+		1E768EF91CFDC6A000606273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E768EFA1CFDC6A000606273 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E768EF21CFDC6A000606273 /* StickiesDump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E768F041CFDC6A000606273 /* Build configuration list for PBXNativeTarget "StickiesDump" */;
+			buildPhases = (
+				1E768EEF1CFDC6A000606273 /* Sources */,
+				1E768EF01CFDC6A000606273 /* Frameworks */,
+				1E768EF11CFDC6A000606273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickiesDump;
+			productName = StickiesDump;
+			productReference = 1E768EF31CFDC6A000606273 /* StickiesDump.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E768EEB1CFDC6A000606273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Thywissen";
+				TargetAttributes = {
+					1E768EF21CFDC6A000606273 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E768EEE1CFDC6A000606273 /* Build configuration list for PBXProject "StickiesDump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E768EEA1CFDC6A000606273;
+			productRefGroup = 1E768EF41CFDC6A000606273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E768EF21CFDC6A000606273 /* StickiesDump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E768EF11CFDC6A000606273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E768EFD1CFDC6A000606273 /* Assets.xcassets in Resources */,
+				1E768F001CFDC6A000606273 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E768EEF1CFDC6A000606273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E768F0D1CFDC6C900606273 /* Document.m in Sources */,
+				1E768F0F1CFDC6C900606273 /* NSColor+FCSAdditions.m in Sources */,
+				1E768EFB1CFDC6A000606273 /* main.m in Sources */,
+				1E768F0E1CFDC6C900606273 /* NSAttributedString+FCSAdditions.m in Sources */,
+				1E768EF81CFDC6A000606273 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E768EFE1CFDC6A000606273 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E768EFF1CFDC6A000606273 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E768F021CFDC6A000606273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1E768F031CFDC6A000606273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1E768F051CFDC6A000606273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StickiesDump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thywissen.john.StickiesDump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E768F061CFDC6A000606273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StickiesDump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thywissen.john.StickiesDump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E768EEE1CFDC6A000606273 /* Build configuration list for PBXProject "StickiesDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E768F021CFDC6A000606273 /* Debug */,
+				1E768F031CFDC6A000606273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E768F041CFDC6A000606273 /* Build configuration list for PBXNativeTarget "StickiesDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E768F051CFDC6A000606273 /* Debug */,
+				1E768F061CFDC6A000606273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E768EEB1CFDC6A000606273 /* Project object */;
+}
